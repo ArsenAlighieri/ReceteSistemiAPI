@@ -11,10 +11,6 @@ public class Hasta
     public string Email { get; set; }
     public string Tedavi { get; set; }
     public string Teshis { get; set; }
-
-    [Column("hayvan_ad")]
     public string HayvanAd { get; set; }
-
-    [Column("hayvan_tur")]
     public string HayvanTur { get; set; }
 }

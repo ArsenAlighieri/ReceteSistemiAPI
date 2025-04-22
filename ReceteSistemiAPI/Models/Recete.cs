@@ -13,7 +13,7 @@ namespace ReceteSistemiAPI
         public int Id { get; set; }
         public int HastaID { get; set; }
         public int VeterinerID { get; set; }
-        public DateTime ReceteTarihi { get; set; }
+        public DateTime RecetelerTarihi { get; set; }
 
         public Hasta Hasta { get; set; }
         public Veteriner Veteriner { get; set; }
